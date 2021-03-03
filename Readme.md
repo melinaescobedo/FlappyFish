@@ -147,15 +147,16 @@ _State Machine_
     *                     *             *                     *
     * * * * * * * * * * * *             * * * * * * * * * * * *
 
-    The Finite State Machine serves perfectly to explain the 
-    whole process or inner workings of the game. Because we start 
-    in a state where our background simply advances and the title 
-    appears (represented by 'TitleScreen State'), then pressing 
-    "enter" starts a count to prepare or notify the user that the
-    game is about to start (represented by 'CountDown') from there 
-    begins to generate a count of points that are accumulated and
-    displayed on the screen (represented by 'Play State' 
-    and 'Score State').
-    Within the main code, a call or requirement is made to each of 
-    the states separately.
+    The finite state machine serves perfectly to explain the 
+    process or inner workings of the game. Because we start in 
+    a state in which our background simply advances and the 
+    title appears (represented by "TitleScreen State"), then 
+    pressing "enter" makes a state change (represented by 
+    'CountDown') and when this new state reaches 0 it advances 
+    again to the next state (represented by 'Play State') and 
+    to change state again our object must perform a collision 
+    to move to another state (represented by 'Score State') 
+    where it displays the count of points accumulated in 
+    the game. Within the main code, a call or requirement is 
+    made to each of the states separately.
  

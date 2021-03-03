@@ -10,7 +10,7 @@ as well as some code snippets to exemplify important aspects and other
 related subtopics. 
 ***
 
-[Link Flappy Fish code in GitHub](xx)
+[Link Flappy Fish code in GitHub](https://github.com/melinaescobedo/FlappyFish.git)
 
 **Important things to consider:**
 

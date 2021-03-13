@@ -1,4 +1,4 @@
-# ············································ Flappy Fish ············································ #
+# ··········································· Flappy Fish ··········································· #
 
 ### Michel Pellegrin Quiroz 162480 
 ### Melina Escobedo Zárate 164094 
@@ -160,3 +160,4 @@ _State Machine_
     the game. Within the main code, a call or requirement is 
     made to each of the states separately.
  
+    // This state machine was implemented based on: Flappy Bird - Lecture 1 - CS50's Introduction to Game Development 2018: https://www.youtube.com/watch?v=3IdOCxHGMIo
